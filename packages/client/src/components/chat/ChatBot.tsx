@@ -50,6 +50,21 @@ const ChatBot = () => {
 
    return (
       <div className="flex flex-col h-full">
+         <div className="border-b pb-3 mb-4 flex items-center gap-3">
+            <div className="w-9 h-9 rounded-full bg-green-600 text-white flex items-center justify-center">
+               NG
+            </div>
+
+            <div>
+               <h1 className="text-lg font-semibold">
+                  NordicGear Support Assistant
+               </h1>
+               <p className="text-xs text-gray-500">
+                  AI customer support for NordicGear outdoor equipment
+               </p>
+            </div>
+         </div>
+
          <div className="flex flex-col flex-1 gap-3 mb-10 overflow-y-auto">
             <ChatMessages messages={messages} />
             {isBotLoading && <TypingIndicator />}

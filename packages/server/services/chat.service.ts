@@ -17,7 +17,7 @@ const nordicGear = fs.readFileSync(
    path.join(__dirname, '..', 'prompts', 'NordicGear.md'),
    'utf-8'
 );
-const instructions = template.replace('{nordicGear}', nordicGear);
+const instructions = template.replace('{{nordicGear}}', nordicGear);
 
 type ChatResponse = {
    id: string;
