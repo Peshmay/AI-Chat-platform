@@ -8,7 +8,9 @@ The assistant helps users with questions about products, shipping, returns, paym
 
 Example interaction with the NordicGear Support Assistant.
 
-![NordicGear Support Assistant](/client/public/screenshots/supportassistant.png)
+<p align="center">
+  <img src="client/public/screenshots/supportassistant.png" width="700"/>
+</p>
 
 ## Project Overview
 
