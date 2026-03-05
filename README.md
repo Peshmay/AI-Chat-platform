@@ -8,7 +8,7 @@ The assistant helps users with questions about products, shipping, returns, paym
 
 Example interaction with the NordicGear Support Assistant.
 
-![NordicGear Support Assistant](client/public/screenshots/supportassistant.png)
+![NordicGear Support Assistant](screenshots/supportassistant.png)
 
 ## Project Overview
 
